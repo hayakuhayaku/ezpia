@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rais.ezpia.penjelasan">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="10sp"
+        android:text="Di dalam mode simulasi, akan ada 16 tombol yang merepresentasikan 16 tuts piano yang paling sering dipakai yang dimulai dari pitch F3 dan berakhir pada G5, perbedaan warna merupakan perbedaan oktaf antar nada. Enjoy :)"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
